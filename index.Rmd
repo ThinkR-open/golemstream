@@ -19,13 +19,13 @@ knitr::opts_chunk$set(echo = TRUE)
 
 Join us on Twitch for sessions of live-coding! During these streams, we will be building Shiny applications live using the `{golem}` package.
 
-`r emo::ji("link")`: https://www.twitch.tv/thinkr_fr
+`r emo::ji("link")` https://www.twitch.tv/thinkr_fr `r emo::ji("link")`
 
 ## Upcoming Stream(s)
 
-### First live stream `r emo::ji("party")`
+### First live stream `r emo::ji("party")` 
 
-<li> `r emo::ji("man_technologist")`: Colin Fay, [@_ColinFay](https://twitter.com/_ColinFay) </li>
+<li> `r emo::ji("man_technologist")`: Colin Fay, <a href = "https://twitter.com/_ColinFay">@_ColinFay</a> </li>
 
 <li> `r emo::ji("link")`: https://www.twitch.tv/thinkr_fr </li>
 
