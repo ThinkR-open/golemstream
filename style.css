@@ -1,0 +1,25 @@
+@import url('https://fonts.googleapis.com/css?family=Titillium+Web:400,700');
+
+body {
+  font-family: 'Titillium Web', sans-serif;
+  padding: 20px;
+}
+
+.fa {
+    display: inline-block;
+    text-rendering: auto;
+    -webkit-font-smoothing: antialiased;
+    -moz-osx-font-smoothing: grayscale;
+}
+
+.nav-footer ul {
+    margin: 0;
+    padding: 0;
+    text-align: center;
+}
+
+.nav-footer li {
+    list-style: none;
+    margin: .5em;
+    display: inline-block;
+}

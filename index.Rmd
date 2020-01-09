@@ -1,0 +1,64 @@
+---
+pagetitle: "{golem} streams"
+output: html_document
+---
+
+```{r setup, include=FALSE}
+knitr::opts_chunk$set(echo = TRUE)
+```
+
+<link rel="stylesheet" href="//fonts.googleapis.com/css?family=Roboto:300,300italic,700,700italic">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/normalize/5.0.0/normalize.css">
+<link rel="stylesheet" href="//cdnjs.cloudflare.com/ajax/libs/milligram/1.3.0/milligram.css">
+<link rel="stylesheet" href="style.css">
+
+<link href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/4.2.0/css/font-awesome.min.css" rel="stylesheet">
+
+
+## Watch the `{golem}` team code live!
+
+Join us on Twitch for sessions of live-coding! During these streams, we will be building Shiny applications live using the `{golem}` package.
+
+`r emo::ji("link")`: https://www.twitch.tv/thinkr_fr
+
+## Upcoming Stream(s)
+
+### First live stream `r emo::ji("party")`
+
+<li> `r emo::ji("man_technologist")`: Colin Fay, [@_ColinFay](https://twitter.com/_ColinFay) </li>
+
+<li> `r emo::ji("link")`: https://www.twitch.tv/thinkr_fr </li>
+
+<li> `r emo::ji("time")`: __2020-01-13 21.00 Paris Time__. </li>
+
+```{r echo = FALSE, message=FALSE}
+library(magrittr)
+library(lubridate)
+d <- ymd_hm("2020-01-13 21.00", tz = "Europe/Paris")
+list(
+  "UTC" = with_tz(d, "UTC"),
+  "America/New_York" = with_tz(d, "America/New_York"),
+  "America/Los_Angeles" = with_tz(d, "America/Los_Angeles"),
+  "Australia/Sydney" = with_tz(d, "Australia/Sydney")
+) %>%
+  details::details(summary = 'See in Other Timezones')
+```
+
+
+## `{golem}`
+
+`{golem}` is a framework for building production grade Shiny Apps. 
+
+Learn more about `{golem}` at: https://github.com/ThinkR-open/golem
+
+<div align = "center" class="nav-footer">
+  <h4>ThinkR is a french compagny of R experts.</h4>
+  <p>Find us on the web:</p>
+  <ul>
+    <li><a href="https://rtask.thinkr.fr"> <i class="fa fa-link fa-3x"></i> </a></li>
+    <li><a href="https://twitter.com/thinkr_fr"> <i class="fa fa-twitter fa-3x"></i> </a></li>
+    <li><a href="https://github.com/thinkr-open"> <i class="fa fa-github fa-3x"></i> </a> </li>  
+    <li><a href="contact@thinkr.fr"> <i class="fa fa-envelope fa-3x"></i> </a></li>
+    </ul>
+</div>
+
