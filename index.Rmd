@@ -46,18 +46,18 @@ Join us on Twitch for live-coding sessions! During these streams, we will be bui
 
 ## Upcoming Stream(s)
 
-### First live stream `r emo::ji("birthday_cake")` 
+### 2nd live stream
 
 <li> `r emo::ji("man_technologist")` Colin Fay, <a href = "https://twitter.com/_ColinFay">@_ColinFay</a> </li>
 
 <li> `r emo::ji("link")` https://www.twitch.tv/thinkr_fr </li>
 
-<li> `r emo::ji("time")` __2020-01-13 21.00 Paris Time__. </li>
+<li> `r emo::ji("time")` __2020-01-23 21.00 Paris Time__. </li>
 
 ```{r echo = FALSE, message=FALSE}
 library(magrittr)
 library(lubridate)
-d <- ymd_hm("2020-01-13 21.00", tz = "Europe/Paris")
+d <- ymd_hm("2020-01-23 21.00", tz = "Europe/Paris")
 list(
   "UTC" = with_tz(d, "UTC"),
   "America/New_York" = with_tz(d, "America/New_York"),
@@ -67,6 +67,15 @@ list(
   details::details(summary = 'See Event in Other Timezones')
 ```
 
+## Past Stream(s)
+
+### First live stream `r emo::ji("birthday_cake")` 
+
+<li> `r emo::ji("man_technologist")` Colin Fay, <a href = "https://twitter.com/_ColinFay">@_ColinFay</a> </li>
+
+<li> `r emo::ji("link")` https://www.twitch.tv/thinkr_fr </li>
+
+<li> `r emo::ji("time")` __2020-01-13 21.00 Paris Time__. </li>
 
 ## `{golem}`
 
