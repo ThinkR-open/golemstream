@@ -54,18 +54,11 @@ Join us on Twitch for live-coding sessions! During these streams, we will be bui
 
 <li> `r emo::ji("time")` __2020-01-23 21.00 Paris Time__. </li>
 
-```{r echo = FALSE, message=FALSE}
-library(magrittr)
-library(lubridate)
-d <- ymd_hm("2020-01-23 21.00", tz = "Europe/Paris")
-list(
-  "UTC" = with_tz(d, "UTC"),
-  "America/New_York" = with_tz(d, "America/New_York"),
-  "America/Los_Angeles" = with_tz(d, "America/Los_Angeles"),
-  "Australia/Sydney" = with_tz(d, "Australia/Sydney")
-) %>%
-  details::details(summary = 'See Event in Other Timezones')
-```
+<b>In your timezone:</b>
+
+<li> <a href = "https://www.timeanddate.com/worldclock/converter.html?iso=20200123T200000&p1=195" target="_blank">With timeanddate.com</a> </li>
+
+<li> <a href = "https://everytimezone.com/s/50386e35" target="_blank">With everytimezone.com</a> </li>
 
 ## Past Stream(s)
 
